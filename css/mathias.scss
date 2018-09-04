@@ -1,0 +1,144 @@
+@import 'global';
+
+.egg-time {
+    font-size: 15px;
+}
+
+body {
+    text-align: center;
+}
+
+.bottom {
+    width: 100%;
+}
+
+.time {
+    margin-top: 3%;
+    font-size: 55px;
+}
+
+#spinning-egg {
+    width: 80%;
+    margin-top: 5%;
+    margin-left: 10%;
+    border: thin solid $primary-color;
+}
+
+/* SCSS CODE FOR BUTTONS */
+
+.flex-button {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.flex-button {
+    a {
+        width: 100%;
+        margin-top: 23%;
+        text-decoration: none;
+
+        p {
+            font-size: 20px;
+        }
+    }
+}
+
+
+footer {
+    a {
+        .buttons {
+            width: 80%;
+            height: 8vh;
+            align-content: center;
+            border-radius: 5px;
+            display: block;
+            margin: auto;
+            background-color: $second-color;
+            border: none;
+        }
+    }
+}
+
+/* END */
+
+/* POPUP */
+
+#modal {
+    display: none;
+    position: absolute;
+    margin-left: 10%;
+    margin-top: -135%;
+    z-index: 5;
+    width: 80%;
+    height: 65vh;
+    background-color: lightgrey;
+    border-radius: 15px;
+
+}
+
+#modal {
+    .pop-tekst {
+        font-size: 25px;
+    }
+}
+
+#modal.visible {
+    display: block;
+}
+
+/* The Close Button */
+
+#close {
+    position: absolute;
+    color: #aaaaaa;
+    right: 15px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+#close:hover {
+    color: pink;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#close3 {
+    position: absolute;
+    color: #aaaaaa;
+    right: 15px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+#close3:hover {
+    color: pink;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.pop-button {
+    margin-top: -10%;
+}
+
+.done-egg {
+    margin-top: 7%;
+    width: 80%;
+}
+
+section {
+    footer {
+        a {
+            .buttons {
+                width: 100px;
+                height: 8vh;
+                align-content: center;
+                border-radius: 5px;
+                display: block;
+                margin: auto;
+                background-color: $second-color;
+                border: none;
+            }
+        }
+    }
+}

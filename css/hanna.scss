@@ -1,0 +1,108 @@
+@import 'global';
+
+/*index*/
+
+.index_welcome {
+    margin-top: 200px;
+    z-index: 10;
+    position: absolute;
+    background: $primary-color;
+    width: 100%;
+
+}
+
+.rotate1 {    
+    -webkit-animation: spin 5s infinite linear;
+    width: 40%;
+}
+
+@keyframes spin
+    {
+    from {transform:rotate(-0deg);}
+    to {transform:rotate(-360deg);}
+}
+
+.rotate2 {
+    -webkit-animation: spins 6s infinite linear;
+    width: 40%;
+}
+
+@keyframes spins
+    {
+    from {transform:rotate(0deg);}
+    to {transform:rotate(360deg);}
+}
+
+
+.getboiling {
+    font-family: 'Montserrat';
+    margin-top: 100%;
+    margin-left: 25%;
+    z-index: 10;
+    position: absolute;
+    p {
+        width: 150px;
+        font-size: 1.5em;
+
+    }
+
+
+}
+
+.smalleggs {
+    height: 40px;
+    width:40px;
+    padding-top: 1em;
+    
+}
+ 
+
+.flexineggs{
+    
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;   
+}
+
+
+
+img.broken {
+    padding-top: 1.5em;
+    height: 300px;
+    width:390px; 
+}
+
+.wrongh1 {
+    padding-top: 1em;
+    font-size: 4em;
+}
+
+
+    .wrongbutton  {
+    height: 50%;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: 'Montserrat'  
+    
+}
+       
+    
+a{ 
+text-decoration: none;
+    button{
+        
+        .button-info{
+          padding: 1em;  
+            line-height: 1.3em;
+            
+        }  
+        
+        
+    }
+}  
+    
+
+
+
+
+

@@ -1,0 +1,45 @@
+/*-- the amount page --*/
+.amount-page h1 {
+  margin-top: 10%; }
+.amount-page img {
+  margin-top: 10%;
+  width: 80%;
+  margin-left: 10%; }
+.amount-page form {
+  position: fixed;
+  top: 50%;
+  left: 45%; }
+  .amount-page form input {
+    width: 100%;
+    height: 200%; }
+.amount-page a {
+  width: 100%;
+  margin-top: 23%;
+  text-decoration: none; }
+.amount-page button {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  font-size: 30px; }
+
+/*-- the size page --*/
+.size-page h1 {
+  margin-top: 5%; }
+.size-page main {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 3.5%; }
+
+.sp-small {
+  margin-top: 7%; }
+  .sp-small img {
+    max-width: 70%; }
+
+.sp-l img {
+  max-width: 85%; }
+
+.sp-xl img {
+  max-width: 55%; }
+
+.sp-footer {
+  margin-bottom: 3%;
+  margin-top: -18%; }
