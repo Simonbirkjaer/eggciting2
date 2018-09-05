@@ -13,6 +13,7 @@ var button6 = document.getElementById("to-clock");
 var button7 = document.getElementById("to-index");
 
 var sound = document.getElementById("play");
+var modal = document.getElementById("modal");
 
 
 
@@ -83,6 +84,7 @@ if (page1.className === "   visible") {
     } else {
         page1.className = "visible";
         page5.className = "invisible";
+        modal.className = "";
         sound.pause();
         
     }
