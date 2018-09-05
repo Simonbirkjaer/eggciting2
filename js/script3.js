@@ -12,6 +12,9 @@ var button5 = document.getElementById("back-size");
 var button6 = document.getElementById("to-clock");
 var button7 = document.getElementById("to-index");
 
+var sound = document.getElementById("play");
+
+
 
 button1.addEventListener("click", function () {
     //menu.className("visible")
@@ -80,6 +83,8 @@ if (page1.className === "   visible") {
     } else {
         page1.className = "visible";
         page5.className = "invisible";
+        sound.pause();
+        
     }
 });
 

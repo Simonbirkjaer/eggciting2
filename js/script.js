@@ -4,6 +4,8 @@ var button3 = document.getElementById("close2");
 var button4 = document.getElementById("close3");
 var modal = document.getElementById("modal");
 
+var button7 = document.getElementById("to-index")
+
 var sound = document.getElementById("play")
 
 button.addEventListener("click", function () {
@@ -39,3 +41,6 @@ button4.addEventListener("click", function () {
         sound.pause();
     }
 });
+
+
+
