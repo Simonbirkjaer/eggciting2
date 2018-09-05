@@ -6,7 +6,7 @@
 
 body {
   font-family: 'Montserrat';
-  background-color: #22afd6;
+  background-color: black;
   height: 100vh;
   display: grid;
   grid-template-rows: 1fr 4fr 2fr;
@@ -54,6 +54,21 @@ button {
 #clock.visible {
   display: block; }
 
+.backgroundbody {
+  height: 100vh; }
+
+.amount-page {
+  height: 100vh; }
+
+.size-page {
+  height: 100vh; }
+
+.grid-3r {
+  height: 100vh; }
+
+.clock_page {
+  height: 100vh; }
+
 .egg-time {
   font-size: 15px; }
 
@@ -71,7 +86,7 @@ body {
   width: 80%;
   margin-top: 5%;
   margin-left: 10%;
-  border: thin solid #22afd6; }
+  border: thin solid black; }
 
 /* SCSS CODE FOR BUTTONS */
 .flex-button {

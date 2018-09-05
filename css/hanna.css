@@ -54,6 +54,21 @@ button {
 #clock.visible {
   display: block; }
 
+.backgroundbody {
+  height: 100vh; }
+
+.amount-page {
+  height: 100vh; }
+
+.size-page {
+  height: 100vh; }
+
+.grid-3r {
+  height: 100vh; }
+
+.clock_page {
+  height: 100vh; }
+
 /*index*/
 .index_welcome {
   margin-top: 200px;
