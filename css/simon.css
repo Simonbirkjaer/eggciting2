@@ -160,7 +160,7 @@ button {
   content: '';
   display: block;
   position: relative;
-  z-index: 100; }
+  z-index: 1; }
 
 .flex-buttons {
   display: flex;
@@ -197,10 +197,10 @@ button {
   display: none;
   position: absolute;
   margin-left: 10%;
-  margin-top: 25%;
+  top: 9%;
   z-index: 10;
   width: 80%;
-  height: 66vh;
+  height: 67vh;
   background-color: lightgrey;
   border-radius: 15px; }
 
