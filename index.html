@@ -13,6 +13,8 @@
 </head>
 
 <body>
+  
+  <!--- start the front page --->
    
 <section class="backgroundbody" id="index">
 
@@ -42,13 +44,20 @@
     </div>
     
     </section>
+      <!--- End the front page --->
+
     
+      <!--- start the amount page --->
+
    <section class="amount-page" id="amount">
     <h1 class="amount-h1">How many eggs?</h1>
     <img  class="amount-img" src="images/custom-normal.png" alt="egg">
         
 <form class="amount-form" action="/action_page.php">
-  <input class="amount-input" type="number" name="quantity" min="1" max="10" step="1">
+  
+  <input class="amount-input" type="number" id="myNumber" value="1">
+  
+
 </form>
 
    <a  class="amount-a"href="#" target="_self">  
@@ -56,7 +65,12 @@
 </a> 
 
 </section>
-    
+          <!--- End the amount page --->
+          
+          
+                <!--- start the size page --->
+
+
     <section class="size-page" id="size">
 
     <h1 class="size-h1"> Choose your Egg </h1>
@@ -99,7 +113,9 @@
     </footer>
     
 </section>
+    <!--- End the size page --->
     
+    <!--- start the timer page --->
     <section class="grid-3r" id="timer">
 
     <h2 class="cooking-time"> Choose your coocking time </h2>
@@ -227,7 +243,12 @@
     </section>
 
 </section>
-    
+        <!--- End the timer page --->
+        
+        
+        
+    <!--- start the clock page --->
+
     <section class="clock_page" id="clock">
 
     <h2 class="time"> 01:47 </h2>
@@ -262,6 +283,7 @@
         
     </section>
 
+    <!--- End the clock page --->
 
 
     
@@ -301,6 +323,13 @@
             }
         })();
     </script>
+    
+    <script>
+function myFunction() {
+    var x = document.getElementById("myNumber").value;
+    document.getElementById("demo").innerHTML = x;
+}
+</script>
     
     <script src="js/script.js"></script>
     
