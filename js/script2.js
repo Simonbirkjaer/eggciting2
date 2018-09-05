@@ -13,6 +13,15 @@ button.addEventListener("click", function () {
         modal2.className = "visible";
     }
 });
+
+button2.addEventListener("click", function () {
+    //menu.className("visible")
+    if (modal2.className === "visible") {
+        modal2.className = "";
+    }
+    
+});
+
 button3.addEventListener("click", function () {
     //menu.className("visible")
     if (modal3.className === "visible") {
@@ -22,13 +31,6 @@ button3.addEventListener("click", function () {
     }
 });
 
-button2.addEventListener("click", function () {
-    //menu.className("visible")
-    if (modal2.className === "visible") {
-        modal2.className = "";
-    }
-    
-});
 button4.addEventListener("click", function () {
     //menu.className("visible")
     if (modal3.className === "visible") {

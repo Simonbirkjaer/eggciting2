@@ -1,5 +1,5 @@
 var button = document.getElementById("spinning-egg");
-var button2 = document.getElementById("close");
+var button2 = document.getElementById("close1");
 var button3 = document.getElementById("close2");
 var button4 = document.getElementById("close3");
 var modal = document.getElementById("modal");
