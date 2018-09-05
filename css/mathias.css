@@ -130,6 +130,18 @@ footer a .buttons {
   display: block; }
 
 /* The Close Button */
+#close {
+  position: absolute;
+  color: #aaaaaa;
+  right: 15px;
+  font-size: 28px;
+  font-weight: bold; }
+
+#close:hover {
+  color: pink;
+  text-decoration: none;
+  cursor: pointer; }
+
 #close1 {
   position: absolute;
   color: #aaaaaa;

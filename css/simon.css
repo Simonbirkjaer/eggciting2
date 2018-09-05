@@ -180,8 +180,8 @@ button {
   display: none;
   position: absolute;
   margin-left: 10%;
-  margin-top: 25%;
-  z-index: 50;
+  top: 9%;
+  z-index: 10;
   width: 80%;
   height: 66vh;
   background-color: lightgrey;
