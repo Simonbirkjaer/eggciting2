@@ -36,7 +36,7 @@ button {
 #size {
   display: none; }
 
-#timer {
+#timere {
   display: none; }
 
 #clock {
@@ -48,7 +48,7 @@ button {
 #size.visible {
   display: block; }
 
-#timer.visible {
+#timere.visible {
   display: block; }
 
 #clock.visible {
@@ -185,3 +185,5 @@ section footer a .buttons {
 
 .cp-button {
   margin-top: -6.5%; }
+
+/*# sourceMappingURL=mathias.css.map */

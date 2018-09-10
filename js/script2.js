@@ -5,6 +5,8 @@ var button3 = document.getElementById("custom");
 var button2 = document.getElementById("close");
 var button4 = document.getElementById("close3");
 
+
+
 button.addEventListener("click", function () {
     //menu.className("visible")
     if (modal2.className === "visible") {

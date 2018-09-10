@@ -37,7 +37,7 @@ button {
 #size {
   display: none; }
 
-#timer {
+#timere {
   display: none; }
 
 #clock {
@@ -49,7 +49,7 @@ button {
 #size.visible {
   display: block; }
 
-#timer.visible {
+#timere.visible {
   display: block; }
 
 #clock.visible {
@@ -228,3 +228,5 @@ button {
 
 .tp-button {
   margin-top: -22.5%; }
+
+/*# sourceMappingURL=simon.css.map */

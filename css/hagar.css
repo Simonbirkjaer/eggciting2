@@ -36,7 +36,7 @@ button {
 #size {
   display: none; }
 
-#timer {
+#timere {
   display: none; }
 
 #clock {
@@ -48,7 +48,7 @@ button {
 #size.visible {
   display: block; }
 
-#timer.visible {
+#timere.visible {
   display: block; }
 
 #clock.visible {
@@ -143,3 +143,5 @@ button {
 .sp-footer {
   margin-bottom: 0%;
   margin-top: -20%; }
+
+/*# sourceMappingURL=hagar.css.map */
