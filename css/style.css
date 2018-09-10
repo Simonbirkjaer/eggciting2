@@ -90,29 +90,31 @@ li a {
 		top: -20px;
 	}
 
+	
 	#inputNav {
 	position: absolute;
 	z-index: 14;
-	top: 40px;
+	top: 150px;
 	left: 50%;
-	width: 330px;
+	width: 300px;
 	margin-left: -150px;
 	outline: 0px solid #ccc;
-	background-color: #e4e4e4;
+	background-color: #101b3c;
      -moz-border-radius: 8px;
     -webkit-border-radius: 8px;
     -khtml-border-radius: 8px;
     border-radius: 8px;
+        height: 185px
 }
 #inputNav div {
 	display: block;
 	position: absolute;
 	width: 30px;
 	height: 70px;
-	font-size: 70px;
-	top: 0px;
-	left: 124px;
-	color: #3d3d3d;
+	font-size: 60px;
+	top: 15px;
+	left: 140px;
+	  color: #f24e7d;
 }
 input {
 	font-size: 80px;
@@ -125,14 +127,13 @@ input {
 	margin-left: 10px;
 }
 input:hover {
-	color: #42798b;	
+	color: #f24e7d;	
 }
 .arrow {
 	font-size: 40px;
 	height: 40px;
 	border: none;
 	background-color: transparent;
-	color: #42798b;
 	cursor: pointer;
 	position: absolute;
 }
@@ -143,8 +144,8 @@ input:hover {
 	color: #3d3d3d;
 }
 #minsDown {
-	top: 45px;
-	left: 0px;
+	top: 60px;
+left: -1em;
 	font-size: 50px;
 /*	background-color: red;
 */	height: 30px;
@@ -153,6 +154,7 @@ input:hover {
 	padding-bottom: 5px;
 	z-index: 5;
 	font-size: 24px;
+      color: #f24e7d;
 }
 #minsUp {
 	height: 30px;
@@ -162,10 +164,13 @@ input:hover {
 	left: 0px;
 	z-index: 10;
 	font-size: 24px;
+      color: #f24e7d;
+    left: -1em;
+    
+    
 }
 #secsDown {
-	top: 45px;
-	left: 228px;
+	left: 216px;
 	font-size: 50px;
 /*	background-color: red;
 */	height: 30px;
@@ -174,6 +179,8 @@ input:hover {
 	padding-bottom: 5px;
 	z-index: 5;
 	font-size: 24px;
+    color: #f24e7d;
+    top: 60px;
 }
 #secsUp {
 	height: 30px;
@@ -183,30 +190,38 @@ input:hover {
 	left: 228px;
 	z-index: 10;
 	font-size: 24px;
+    color: #f24e7d;
+    left: 216px;
 }
 #inputMins {
-	margin-left: 26px;
+	
+    padding-top: 0.15em;
+       color: white;
 }
+    
+    
+    
 
 #inputOK {
 	font-size: 30px;
 	height: 70px;
 	font-weight: bold;
 	top: 11px;
-	color: #3d3d3d;
-	left: 260px;
+	color: #ffffff;
+    left: 216px;
+  
 }
 #inputOK:hover {
-	color: #42798b;
+    padding-top: 2em;
+	
 }
-#timesup {
-	display: none;
-	width: 90%;
-	height: 69vh;
-	background-color: rgb(242,177,58);
-	z-index: 20;
-	position:fixed;
-	left:5%;
-	top:3%;
-	text-align: center;
+
+input {
+    color: white;
+}    
+    
+button#inputOK {
+    margin-top: 1em;
+    
+    
 }

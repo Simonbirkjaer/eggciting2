@@ -156,10 +156,14 @@ footer a .buttons {
 
 #close3 {
   position: absolute;
-  color: #aaaaaa;
-  right: 15px;
-  font-size: 28px;
-  font-weight: bold; }
+  color: white;
+  right: 2px;
+  font-size: 65px;
+  font-weight: bold;
+  border: none;
+  background-color: #101c3c;
+  top: 0.2%;
+  border-radius: 25%; }
 
 #close3:hover {
   color: pink;
@@ -185,5 +189,3 @@ section footer a .buttons {
 
 .cp-button {
   margin-top: -6.5%; }
-
-/*# sourceMappingURL=mathias.css.map */
