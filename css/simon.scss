@@ -92,6 +92,8 @@ button {
   font-size: 15px;
   text-align: center;
   line-height: 20px;
+    color: #fff;
+    right: 0px;
 }
 .option-input:checked::after {
   -webkit-animation: click-wave 0.65s;
