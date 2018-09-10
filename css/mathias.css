@@ -54,6 +54,42 @@ button {
 #clock.visible {
   display: block; }
 
+#time1 {
+  display: none; }
+
+#time2 {
+  display: none; }
+
+#time3 {
+  display: none; }
+
+#time4 {
+  display: none; }
+
+#time5 {
+  display: none; }
+
+#time6 {
+  display: none; }
+
+#time1.visible {
+  display: block; }
+
+#time2.visible {
+  display: block; }
+
+#time3.visible {
+  display: block; }
+
+#time4.visible {
+  display: block; }
+
+#time5.visible {
+  display: block; }
+
+#time6.visible {
+  display: block; }
+
 .backgroundbody {
   height: 100vh; }
 
@@ -189,3 +225,5 @@ section footer a .buttons {
 
 .cp-button {
   margin-top: -6.5%; }
+
+/*# sourceMappingURL=mathias.css.map */

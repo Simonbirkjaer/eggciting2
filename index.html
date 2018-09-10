@@ -120,30 +120,30 @@ onclick="this.parentNode.querySelector('[type=number]').stepDown();" class="arro
 
         <h1 class="size-h1"> Choose your Egg </h1>
         <main class="size-main">
-            <section class="sp-small ">
+            <section id="size1" class="sp-small ">
                 <label>
             <h2> M </h2>
             <img class="size-small-img" src="images/custom-normal.png" alt="small egg">
-            <input type="checkbox" class="option-input checkbox"/>
+            <input id="checkbox1" type="checkbox" class="option-input checkbox"/>
                 </label>
             </section>
 
 
-            <section class="sp-l">
+            <section id="size2" class="sp-l">
                 <label>
             <h2>L</h2>
             <img class="size-l-img" src="images/custom-normal.png" alt="small egg">
-                <input type="checkbox" class="option-input checkbox"/>
+                <input id="checkbox2" type="checkbox" class="option-input checkbox"/>
                 </label>
             </section>
 
         </main>
-        <section class="sp-xl">
+        <section id="size3" class="sp-xl">
             <label>
         <h2>XL </h2>
 
         <img class="size-xl-img" src="images/custom-normal.png" alt="small egg">
-        <input type="checkbox" class="option-input checkbox size-checkbox"/>
+        <input id="checkbox3" type="checkbox" class="option-input checkbox size-checkbox"/>
                 </label>
         </section>
 
@@ -171,8 +171,12 @@ onclick="this.parentNode.querySelector('[type=number]').stepDown();" class="arro
 
                 <ul>
 
-                    <li><a href="#" class="menuItem">3 min</a></li>
-                    <li><a href="#" class="menuItem menuItem2">7 min</a></li>
+                    <li id="time1" onclick="document.getElementById("checkbox4").checked = true;"><a href="#" class="menuItem">3 min</a></li>
+					<li id="time2"><a href="#" class="menuItem menuItem2">5 min</a></li>
+					<li id="time3"><a href="#" class="menuItem">4 min</a></li>
+                    <li id="time4"><a href="#" class="menuItem menuItem2">6 min</a></li>
+                    <li id="time5"><a href="#" class="menuItem">5 min</a></li>
+                    <li id="time6"><a href="#" class="menuItem menuItem2">7 min</a></li>
                 </ul>
                 <a href="#" id="plus" class="hide"><span>+</span></a>
                 <nav id="menu-btn" class="hide"><span>Menu</span></nav>
@@ -181,7 +185,7 @@ onclick="this.parentNode.querySelector('[type=number]').stepDown();" class="arro
                 <label class="flex-label">
             <p class="flex-p">Soft</p>
             <img src="images/soft.png" alt="Soft boiled egg">
-            <input type="checkbox" class="option-input checkbox"/>
+            <input id="checkbox4" type="checkbox" class="option-input checkbox"/>
                 </label>
             </section>
 
@@ -189,7 +193,7 @@ onclick="this.parentNode.querySelector('[type=number]').stepDown();" class="arro
                 <label class="flex-label">
             <p class="flex-p">Hard</p>
             <img src="images/hard.png" alt="Hard boiled egg">
-                <input type="checkbox" class="option-input checkbox"/>
+                <input id="checkbox5" type="checkbox" class="option-input checkbox"/>
                 </label>
             </section>
 
@@ -411,6 +415,7 @@ onclick="this.parentNode.querySelector('[type=number]').stepDown();" class="arro
 </body>
 
 
+<script src="js/script1.js"></script>
 <script src="js/script2.js"></script>
 <script src="js/script3.js"></script>
 <script src="script_ver2.js"></script>

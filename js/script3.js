@@ -15,6 +15,13 @@ var button7 = document.getElementById("to-index");
 var sound = document.getElementById("playsound");
 var modal = document.getElementById("times-up");
 
+var preset1 = document.getElementById("time1");
+var preset2 = document.getElementById("time2");
+var preset3 = document.getElementById("time3");
+var preset4 = document.getElementById("time4");
+var preset5 = document.getElementById("time5");
+var preset6 = document.getElementById("time6");
+
 
 
 button1.addEventListener("click", function () {
@@ -64,6 +71,15 @@ if (page3.className === "visible") {
     } else {
         page3.className = "visible";
         page4.className = "invisible";
+		preset1.className = "";
+		preset2.className = "";
+		preset3.className = "";
+		preset4.className = "";
+		preset5.className = "";
+		preset6.className = "";
+		document.getElementById("checkbox1").checked = false;
+		document.getElementById("checkbox2").checked = false;
+		document.getElementById("checkbox3").checked = false;
     }
 });
 
