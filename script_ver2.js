@@ -316,8 +316,8 @@ input.show = function () {
 input.hide = function () {
 	console.log('hide input');
 	console.log(input.overlay.style.display);
-	input.overlay.style.display = "none";
-	input.navElement.style.display = "none";
+	input.overlay.style.display = "block";
+	input.navElement.style.display = "inline";
 	input.overlay.removeEventListener('click',input.hide);
 	console.log(input.overlay.style.display);
 }
