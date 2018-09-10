@@ -221,7 +221,17 @@ input {
 }    
     
 button#inputOK {
-    margin-top: 1em;
-    
-    
+    margin-top: 1em;    
+}
+
+#timesup {
+	display: none;
+	width: 90%;
+	height: 69vh;
+	background-color: rgb(242,177,58);
+	z-index: 20;
+	position:fixed;
+	left:5%;
+	top:3%;
+	text-align: center;
 }
