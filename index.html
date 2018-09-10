@@ -86,14 +86,24 @@
 
     <section class="amount-page" id="amount">
         <h1 class="amount-h1">How many eggs?</h1>
-        <img class="amount-img" src="images/custom-normal.png" alt="egg">
+       
+        
+<section class="inputsection">
+   <img src="images/up-arrow.png" onclick="this.parentNode.querySelector('[type=number]').stepUp();" class="arrowtop">
+   
 
-        <form class="amount-form" action="/action_page.php">
+  <input type="number" name="number" min="1" max="10" value="1" class="inputnumber">
+  
+  
+  
+   <img class="amount-img" src="images/custom-normal.png" alt="egg">
+   
+   <img src="images/up-arrow.png" 
+onclick="this.parentNode.querySelector('[type=number]').stepDown();" class="arrowbutton">
 
-            <input class="amount-input" type="number" id="myNumber" value="1">
 
-
-        </form>
+</section>
+       
 
         <a class="amount-a" href="#" target="_self">  
 <button class="amount-button" id="to-size">Next</button>

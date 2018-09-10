@@ -235,3 +235,59 @@ button#inputOK {
 	top:3%;
 	text-align: center;
 }
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+
+.arrowbutton
+{
+    width:12%;
+     transform: rotate(180deg);
+
+    
+}
+.arrowtop {
+   
+    width:12%;
+    margin-top:4.5%;
+    margin-bottom: -8%
+}
+
+
+.inputnumber {
+    border: none;
+    border-radius: 20%;
+    position: fixed;
+   top: 49%;
+    left: 34%;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
