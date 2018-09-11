@@ -107,12 +107,11 @@ button {
 
 /*-- the amount page --*/
 .amount-h1 {
-  margin-top: 5%;
-  font-size: 1.7em; }
+  margin-top: 5%; }
 
 .amount-img {
   margin-top: 10%;
-  width: 100%; }
+  width: 90%; }
 
 .amount-form {
   position: absolute;
@@ -137,10 +136,13 @@ button {
   text-decoration: none; }
 
 .amount-button {
-  padding-top: 2%;
-  padding-bottom: 2%;
-  font-size: 25px;
-  margin-top: 7%; }
+  width: 100px;
+  height: 8vh;
+  font-size: 20px;
+  margin-top: 13%; }
+
+.inputsection {
+  margin-top: 5px; }
 
 /*-- the size page --*/
 .size-h1 {
@@ -176,8 +178,9 @@ button {
   object-position: center;
   margin-left: 25%; }
 
+#size3 {
+  margin-top: 5%; }
+
 .sp-footer {
   margin-bottom: 0%;
-  margin-top: -20%; }
-
-/*# sourceMappingURL=hagar.css.map */
+  margin-top: -16%; }

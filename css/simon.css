@@ -125,7 +125,8 @@ button {
 .flex-timer {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around; }
+  justify-content: space-around;
+  margin-top: 5%; }
 
 .flex-section {
   width: 40%;
@@ -221,12 +222,14 @@ button {
   top: 9%;
   z-index: 10;
   width: 80%;
-  height: 66vh;
-  background-color: lightgrey;
-  border-radius: 15px; }
+  height: 75vh;
+  background-color: #101c3c;
+  border-radius: 15px;
+  color: white; }
 
 #modal2 .pop-tekst {
-  font-size: 20px; }
+  font-size: 25px;
+  line-height: 300%; }
 
 #modal2.visible {
   display: block; }
@@ -257,7 +260,9 @@ button {
   margin-top: 5%;
   border: none;
   font: 25px/26px Georgia, Garamond, Serif;
-  overflow: auto; }
+  overflow: auto;
+  line-height: 130%;
+  font-family: 'Montserrat'; }
 
 .scroll-box table {
   font-size: 25px;
@@ -265,7 +270,7 @@ button {
   margin-left: 35%; }
 
 .tp-button {
-  margin-top: -22.5%; }
+  margin-top: -13%; }
 
 #eggloader {
   display: block;
@@ -323,5 +328,7 @@ button {
     transform: translate(0, 0); }
   100% {
     transform: translate(20px, 0); } }
-
-/*# sourceMappingURL=simon.css.map */
+#loader-text {
+  position: absolute;
+  top: 33%;
+  left: 20%; }

@@ -18,8 +18,8 @@ body {
 }
 
 #spinning-egg {
-    width: 80%;
-    margin-top: 5%;
+    width: 90%;
+    margin-top: 10%;
     margin-left: 0%;
     border: thin solid $primary-color;
 }
@@ -75,6 +75,12 @@ footer {
     background-color: lightgrey;
     border-radius: 15px;
 
+}
+
+#timesup {
+    .pop-tekst {
+        margin-top: 5px;
+    }
 }
 
 #modal {
@@ -162,5 +168,5 @@ section {
 }
 
 .cp-button{
-    margin-top: -6.5%;
+    margin-top: -3%;
 }

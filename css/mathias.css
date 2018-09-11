@@ -119,8 +119,8 @@ body {
   font-size: 55px; }
 
 #spinning-egg {
-  width: 80%;
-  margin-top: 5%;
+  width: 90%;
+  margin-top: 10%;
   margin-left: 0%;
   border: thin solid #22afd6; }
 
@@ -158,6 +158,9 @@ footer a .buttons {
   height: 65vh;
   background-color: lightgrey;
   border-radius: 15px; }
+
+#timesup .pop-tekst {
+  margin-top: 5px; }
 
 #modal .pop-tekst {
   font-size: 25px; }
@@ -224,6 +227,4 @@ section footer a .buttons {
   border: none; }
 
 .cp-button {
-  margin-top: -6.5%; }
-
-/*# sourceMappingURL=mathias.css.map */
+  margin-top: -3%; }
